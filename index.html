@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Saya Iman — Halaman Pembuka</title>
+  <meta name="description" content="Website profil pribadi Yusuf Iman Hariyono, pelajar SMK Telkom Malang jurusan Teknik Komputer &amp; Jaringan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Navigasi Utama">
+      <a href="index.html" class="brand">
+        <span class="brand-monogram" aria-hidden="true">YI</span>
+        <span>Profil Saya Iman</span>
+      </a>
+      <button
+        id="navToggle"
+        class="nav-toggle"
+        type="button"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html" class="nav-link active" aria-current="page">1. Beranda</a></li>
+        <li><a href="profil.html" class="nav-link">2. Profil Saya</a></li>
+        <li><a href="kontak.html" class="nav-link">3. Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="page-indicator">
+      <span class="page-indicator-dot" aria-hidden="true"></span>
+      <span>Halaman 1 dari 3 &middot; Pembukaan</span>
+    </div>
+
+    <section class="hero-card" aria-labelledby="judul-utama">
+      <p class="hero-eyebrow">Selamat Datang di Laman Pribadi</p>
+      <h1 id="judul-utama" class="hero-title">
+        Profil Saya Iman: Mengenal Lebih Dekat Perjalanan Belajar dan Dedikasi di Bidang Jaringan Komputer
+      </h1>
+      <p class="hero-subtitle">
+        Dengan hormat, saya mengucapkan selamat datang kepada Bapak, Ibu, serta seluruh pengunjung yang berkenan meluangkan waktu untuk meninjau situs web resmi profil pribadi saya.
+      </p>
+
+      <blockquote class="opening-quote">
+        <strong>Kata Pembuka:</strong> Situs web ini disusun secara ringkas dan terstruktur dalam tiga halaman sebagai media perkenalan resmi mengenai identitas diri, latar belakang pendidikan kejuruan, serta saluran komunikasi yang dapat dihubungi.
+      </blockquote>
+
+      <div class="cta-group">
+        <a href="profil.html" class="btn btn-primary">
+          Lihat Profil Saya
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+          </svg>
+        </a>
+        <a href="kontak.html" class="btn btn-secondary">Informasi Kontak</a>
+      </div>
+    </section>
+
+    <section class="section-grid" aria-label="Ringkasan Halaman Website">
+      <article class="summary-card">
+        <div class="summary-number">Halaman 01</div>
+        <h2>Pembukaan &amp; Pengantar</h2>
+        <p>Sambutan resmi beserta gambaran singkat mengenai tujuan penyusunan situs web profil pribadi.</p>
+      </article>
+      <article class="summary-card">
+        <div class="summary-number">Halaman 02</div>
+        <h2>Profil Lengkap</h2>
+        <p>Memuat identitas lengkap, usia, institusi pendidikan di SMK Telkom Malang, serta kompetensi jurusan.</p>
+      </article>
+      <article class="summary-card">
+        <div class="summary-number">Halaman 03</div>
+        <h2>Informasi Kontak</h2>
+        <p>Saluran resmi melalui akun Instagram untuk keperluan korespondensi, diskusi, maupun silaturahmi.</p>
+      </article>
+    </section>
+
+    <nav class="page-pagination" aria-label="Navigasi Halaman">
+      <a href="profil.html" class="pagination-link next">
+        <span class="pagination-dir">Halaman Berikutnya &rarr;</span>
+        <span class="pagination-label">2. Profil Saya</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <span>&copy; 2026 Yusuf Iman Hariyono &middot; Profil Saya Iman</span>
+      <span>SMK Telkom Malang &middot; Teknik Komputer &amp; Jaringan</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

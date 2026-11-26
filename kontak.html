@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informasi Kontak — Yusuf Iman Hariyono</title>
+  <meta name="description" content="Informasi kontak resmi melalui Instagram untuk menghubungi Yusuf Iman Hariyono." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Navigasi Utama">
+      <a href="index.html" class="brand">
+        <span class="brand-monogram" aria-hidden="true">YI</span>
+        <span>Profil Saya Iman</span>
+      </a>
+      <button
+        id="navToggle"
+        class="nav-toggle"
+        type="button"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html" class="nav-link">1. Beranda</a></li>
+        <li><a href="profil.html" class="nav-link">2. Profil Saya</a></li>
+        <li><a href="kontak.html" class="nav-link active" aria-current="page">3. Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="page-indicator">
+      <span class="page-indicator-dot" aria-hidden="true"></span>
+      <span>Halaman 3 dari 3 &middot; Informasi Kontak</span>
+    </div>
+
+    <header class="page-header">
+      <h1 class="page-title">Informasi Kontak</h1>
+      <p class="page-lead">
+        Apabila Bapak, Ibu, atau rekan sekalian berkenan menjalin komunikasi lebih lanjut, silakan menghubungi saya melalui akun Instagram resmi berikut ini.
+      </p>
+    </header>
+
+    <section class="contact-card" aria-label="Kontak Instagram">
+      <div>
+        <h2 class="card-title">Korespondensi Melalui Instagram</h2>
+        <p class="formal-note">
+          Saya terbuka untuk berdiskusi mengenai pembelajaran di bidang <strong>Teknik Komputer &amp; Jaringan</strong>, kegiatan akademik di lingkungan <strong>SMK Telkom Malang</strong>, maupun kerja sama positif lainnya.
+        </p>
+        <ul class="contact-info-list">
+          <li>Silakan kirimkan pesan singkat melalui fitur <em>Direct Message</em> (DM) Instagram dengan menyertakan identitas serta keperluan Anda.</li>
+          <li>Pesan akan ditinjau dan dibalas secara sopan sesuai waktu luang di luar jam pembelajaran sekolah.</li>
+          <li>Terima kasih atas perhatian dan kesediaan Anda mengunjungi laman profil saya.</li>
+        </ul>
+      </div>
+
+      <div class="ig-panel">
+        <div class="ig-icon-wrap" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+        </div>
+        <p class="ig-label">Instagram Resmi</p>
+        <!-- Ganti @username_instagram di bawah dan tautan href dengan username Instagram asli Anda -->
+        <p id="igHandleText" class="ig-handle">@username_instagram</p>
+        <p class="ig-helper">Sesuaikan username di atas dengan akun Instagram Anda sebelum dipublikasikan.</p>
+        <div class="ig-actions">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Buka Instagram
+          </a>
+          <button id="copyIgBtn" type="button" class="btn btn-secondary">
+            Salin Username
+          </button>
+        </div>
+        <div id="copyFeedback" class="copy-feedback" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <nav class="page-pagination" aria-label="Navigasi Halaman">
+      <a href="profil.html" class="pagination-link prev">
+        <span class="pagination-dir">&larr; Halaman Sebelumnya</span>
+        <span class="pagination-label">2. Profil Saya</span>
+      </a>
+      <a href="index.html" class="pagination-link next">
+        <span class="pagination-dir">Kembali ke Awal &rarr;</span>
+        <span class="pagination-label">1. Beranda</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <span>&copy; 2026 Yusuf Iman Hariyono &middot; Profil Saya Iman</span>
+      <span>SMK Telkom Malang &middot; Teknik Komputer &amp; Jaringan</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

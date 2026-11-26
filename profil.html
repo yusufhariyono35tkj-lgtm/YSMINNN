@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Saya — Yusuf Iman Hariyono</title>
+  <meta name="description" content="Informasi profil pribadi Yusuf Iman Hariyono, pelajar berusia 16 tahun di SMK Telkom Malang jurusan Teknik Komputer &amp; Jaringan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container" aria-label="Navigasi Utama">
+      <a href="index.html" class="brand">
+        <span class="brand-monogram" aria-hidden="true">YI</span>
+        <span>Profil Saya Iman</span>
+      </a>
+      <button
+        id="navToggle"
+        class="nav-toggle"
+        type="button"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html" class="nav-link">1. Beranda</a></li>
+        <li><a href="profil.html" class="nav-link active" aria-current="page">2. Profil Saya</a></li>
+        <li><a href="kontak.html" class="nav-link">3. Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="page-indicator">
+      <span class="page-indicator-dot" aria-hidden="true"></span>
+      <span>Halaman 2 dari 3 &middot; Profil Saya</span>
+    </div>
+
+    <header class="page-header">
+      <h1 class="page-title">Profil Pribadi</h1>
+      <p class="page-lead">
+        Berikut merupakan data identitas diri serta latar belakang pendidikan kejuruan yang sedang saya tempuh saat ini.
+      </p>
+    </header>
+
+    <section class="profile-layout" aria-label="Detail Profil Yusuf Iman Hariyono">
+      <div class="card">
+        <h2 class="card-title">Identitas Diri &amp; Pendidikan</h2>
+        <dl class="profile-list">
+          <div class="profile-item">
+            <dt class="profile-label">Nama Lengkap</dt>
+            <dd class="profile-value">Yusuf Iman Hariyono</dd>
+          </div>
+          <div class="profile-item">
+            <dt class="profile-label">Umur</dt>
+            <dd class="profile-value">16 Tahun</dd>
+          </div>
+          <div class="profile-item">
+            <dt class="profile-label">Institusi (Student of)</dt>
+            <dd class="profile-value">SMK Telkom Malang</dd>
+          </div>
+          <div class="profile-item">
+            <dt class="profile-label">Jurusan</dt>
+            <dd class="profile-value">Teknik Komputer &amp; Jaringan</dd>
+          </div>
+        </dl>
+      </div>
+
+      <aside class="card" aria-labelledby="ringkasan-pendidikan">
+        <h2 id="ringkasan-pendidikan" class="card-title">Fokus Bidang Keahlian</h2>
+        <p class="formal-note">
+          Sebagai pelajar di <strong>SMK Telkom Malang</strong> pada program keahlian <strong>Teknik Komputer &amp; Jaringan</strong>, saya berfokus pada penguasaan konsep dasar hingga penerapan infrastruktur teknologi informasi.
+        </p>
+        <p class="formal-note">
+          Pendidikan kejuruan ini membekali saya dengan kedisiplinan kerja, kemampuan analisis teknis, serta kesiapan untuk terus berkembang di bidang komputasi dan jaringan.
+        </p>
+        <ul class="badge-list" aria-label="Bidang studi utama">
+          <li class="badge">Jaringan Komputer</li>
+          <li class="badge">Administrasi Sistem</li>
+          <li class="badge">Perangkat Keras</li>
+          <li class="badge">Infrastruktur TI</li>
+        </ul>
+      </aside>
+    </section>
+
+    <nav class="page-pagination" aria-label="Navigasi Halaman">
+      <a href="index.html" class="pagination-link prev">
+        <span class="pagination-dir">&larr; Halaman Sebelumnya</span>
+        <span class="pagination-label">1. Beranda</span>
+      </a>
+      <a href="kontak.html" class="pagination-link next">
+        <span class="pagination-dir">Halaman Berikutnya &rarr;</span>
+        <span class="pagination-label">3. Kontak</span>
+      </a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <span>&copy; 2026 Yusuf Iman Hariyono &middot; Profil Saya Iman</span>
+      <span>SMK Telkom Malang &middot; Teknik Komputer &amp; Jaringan</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
